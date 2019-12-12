@@ -1,0 +1,65 @@
+body
+{
+    background-color: darkred;
+}
+.container
+{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-left: 300px;
+/*    text-align: center;*/
+    border-bottom-left-radius: 50px;   
+    border-bottom-right-radius: 50px;
+/*
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+*/
+    
+}
+.d
+{
+    margin-left: 30px;
+}
+.nav
+{
+    width: 400px;
+    background-color: brown;
+    height: 40px;
+    margin-left: -30px;
+}
+.nav h2
+{
+    text-align: center;
+}
+button
+{
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 75px;
+    border-style: hidden;
+    background-color: darkred;
+}
+.totaltip
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkred;
+}
+.totaltip p
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.totaltip sup
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.totaltip small
+{
+    font-size: 14px;
+    font-weight: bold;
+}

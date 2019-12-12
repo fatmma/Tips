@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="stylesheet" href="tips.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="fatma.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div class="d">
+        <div class="nav">
+        <h2>TIP CALCULATOR</h2>
+        </div>
+        <form>
+            <div class="d1">
+        <label>How much was your bill?<br>
+        $<input class="billamount" type="number">
+        </label>
+        </div>
+            <br>
+            <br>
+        <div class="d2">
+            <label>How was your service?<br>
+            <select>
+                <option disabled selected value="0">--choose an option--</option>
+                <option value="0.3">30%--Outstanding</option>
+                <option value="0.2">20%--Good</option>
+                <option value="0.15">15%--It Was okay</option>
+                <option value="0.1">10%--Bad</option>
+                <option value="0.05">5%--terrible</option>
+                </select>
+            </label>
+            
+        </div>
+            <br>
+            <br>
+        <div class="d3">
+        <label>How many people are sharing the bill?<br>
+        <input class="number" type="number">people
+        </label>
+        </div>
+            <br>
+            <br>
+        <div class="d4">
+        <button class="btn btn-danger">CALCULATE</button>
+        </div>
+            </form>
+        </div>
+        <div class="totaltip">
+<!--
+            <p>Tip Amount</p>
+            <sup>$</sup><span class="tip">0.00</span><br>
+            <small class="each">each</small>
+-->
+        </div>
+        </div>
+        <script type="text/javascript" src="tips.js"></script>
+    </body>
+</html>
